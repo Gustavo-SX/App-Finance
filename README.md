@@ -1,2 +1,2 @@
-# App-de-Finan-as-
+# App-de-Finanças
 App de finanças desenvolvido com React Native.
