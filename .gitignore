@@ -1,0 +1,50 @@
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+.expo-shared/
+dist/
+web-build/
+
+# Native (se usar)
+android/
+ios/
+
+# arquivos sensíveis (certificados/chaves)
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.pem
+
+# Metro
+.metro-cache/
+.metro-health-check*
+
+# logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+
+# sistema
+.DS_Store
+Thumbs.db
+
+# variáveis de ambiente (NUNCA subir)
+.env
+.env.*
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+# testes
+coverage/
+
+# exemplos
+app-example
