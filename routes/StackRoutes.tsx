@@ -5,6 +5,8 @@ import Login from "../screens/Login";
 import Routes from "./index"; 
 import Redefinicao from "../screens/Redefinicao";
 import Acesso from "@/screens/Acesso";
+import Cadastro from "@/screens/Cadastro";
+import ResetSuccess from "@/screens/ResetSucess";
 
 const Stack = createNativeStackNavigator();
 
@@ -13,7 +15,9 @@ export default function StackRoutes() {
     <Stack.Navigator screenOptions={{ headerShown: false }}>
       <Stack.Screen name="Acesso" component={Acesso} />
       <Stack.Screen name="Login" component={Login} />
+      <Stack.Screen name="Cadastro" component={Cadastro} />
       <Stack.Screen name="Main" component={Routes} />
+      <Stack.Screen name="Reset" component={ResetSuccess} />
       <Stack.Screen name="Redefinicao" component={Redefinicao} />
     </Stack.Navigator>
   );

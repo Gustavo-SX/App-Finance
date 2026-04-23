@@ -4,32 +4,32 @@
     "slug": "finan-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "../image/logo.png",
+    "icon": "./image/logo.png",
     "scheme": "finanapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gustavosx.finanapp"
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
-      },
+      "foregroundImage": "./assets/icon.png",
+      "backgroundColor": "#E6F4FE"
+},
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.gustavosx.finanapp"
     },
     "web": {
       "output": "single",
-      "favicon": "../image/logo.png"
+      "favicon": "./image/logo.png"
     },
     "plugins": [
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+          "image": "./image/logo.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff",
@@ -39,6 +39,12 @@
         }
       ],
       "expo-router"
-    ]
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "22d8a29c-e6e3-4bc8-a2d4-6982e1c4783f"
+      }
+    }
   }
 }

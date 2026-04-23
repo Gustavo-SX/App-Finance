@@ -34,7 +34,7 @@ const Redefinicao = () => {
 
       <Botao 
         title="Enviar"
-        onPress={() => navigation.navigate('ResetSucess')}
+        onPress={() => navigation.navigate('Reset')}
       />
 
     </LinearGradient>
