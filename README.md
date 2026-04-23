@@ -1,50 +1,134 @@
-# Welcome to your Expo app 👋
+# 💰 FinanApp
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplicativo mobile de controle financeiro desenvolvido com **React Native + Expo** e integrado ao **Supabase**.
 
-## Get started
+---
 
-1. Install dependencies
+## 📱 Sobre o projeto
 
-   ```bash
-   npm install
-   ```
+O **FinanApp** é um app para gerenciamento de finanças pessoais, permitindo que o usuário:
 
-2. Start the app
+* 📊 Visualize seus gastos
+* ➕ Adicione categorias de despesas
+* 🔐 Crie conta e faça login com autenticação
+* 👤 Gerencie seu perfil
+* 📈 Acompanhe análise de gastos em gráfico
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🚀 Tecnologias utilizadas
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+* ⚛️ React Native
+* 🚀 Expo
+* 🔥 Supabase (Auth + Database)
+* 🧭 React Navigation
+* 🎨 Expo Linear Gradient
+* 📊 react-native-svg
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 📸 Funcionalidades
 
-When you're ready, run:
+* ✅ Cadastro de usuário
+* ✅ Login com autenticação
+* ✅ Perfil do usuário
+* ✅ Edição de perfil
+* ✅ Dashboard de gastos
+* ✅ Gráfico de análise
+* ✅ Navegação por abas (Tab Navigation)
+
+---
+
+## 📂 Estrutura do projeto
 
 ```bash
-npm run reset-project
+src/
+ ├── components/
+ ├── screens/
+ ├── services/
+ │    ├── supabase.ts
+ │    └── auth.ts
+ ├── routes/
+ ├── css/
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 🔐 Variáveis de ambiente
 
-To learn more about developing your project with Expo, look at the following resources:
+Crie um arquivo `.env` na raiz do projeto:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```env
+EXPO_PUBLIC_SUPABASE_URL=your_url_here
+EXPO_PUBLIC_SUPABASE_KEY=your_key_here
+```
 
-## Join the community
+⚠️ Nunca suba esse arquivo para o GitHub.
 
-Join our community of developers creating universal apps.
+---
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## ▶️ Como rodar o projeto
+
+```bash
+# instalar dependências
+npm install
+
+# iniciar o projeto
+npx expo start
+```
+
+---
+
+## 📦 Build
+
+Para gerar APK ou build:
+
+```bash
+npx expo run:android
+```
+
+ou use:
+
+```bash
+npx expo prebuild
+```
+
+---
+
+## 🧠 Aprendizados
+
+Durante o desenvolvimento foram trabalhados conceitos como:
+
+* Context API
+* Autenticação com Supabase
+* Navegação entre telas
+* Gerenciamento de estado
+* Integração com banco de dados
+
+---
+
+## 📌 Próximas melhorias
+
+* 🔔 Notificações
+* 📊 Gráficos mais avançados
+* 💾 Persistência de login
+* 🌙 Modo escuro/claro
+* 📱 Melhor UX/UI
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Gustavo Carvalho, Luis Henrique e Josias Lima**
+
+---
+
+## ⭐ Contribuição
+
+Sinta-se livre para abrir issues ou contribuir com melhorias!
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.
