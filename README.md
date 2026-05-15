@@ -119,7 +119,7 @@ Durante o desenvolvimento foram trabalhados conceitos como:
 
 ## 👨‍💻 Autor
 
-Desenvolvido por **Gustavo Carvalho, Luis Henrique e Josias Lima**
+Desenvolvido por **Gustavo Vinicius Carvalho R. Silva-01811546, Luis Henrique Moreira Oséas e Josias Lima De Carvalho Neto-01793618**
 
 ---
 
